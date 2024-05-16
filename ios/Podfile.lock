@@ -1,0 +1,40 @@
+PODS:
+  - Flutter (1.0.0)
+  - in_app_purchase_storekit (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - purchases_flutter (6.25.0):
+    - Flutter
+    - PurchasesHybridCommon (= 10.3.2)
+  - PurchasesHybridCommon (10.3.2):
+    - RevenueCat (= 4.39.1)
+  - RevenueCat (4.39.1)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - in_app_purchase_storekit (from `.symlinks/plugins/in_app_purchase_storekit/darwin`)
+  - purchases_flutter (from `.symlinks/plugins/purchases_flutter/ios`)
+
+SPEC REPOS:
+  trunk:
+    - PurchasesHybridCommon
+    - RevenueCat
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  in_app_purchase_storekit:
+    :path: ".symlinks/plugins/in_app_purchase_storekit/darwin"
+  purchases_flutter:
+    :path: ".symlinks/plugins/purchases_flutter/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  in_app_purchase_storekit: 0e4b3c2e43ba1e1281f4f46dd71b0593ce529892
+  purchases_flutter: e8652efd109c542f1876891d10c53ebb28e0b81c
+  PurchasesHybridCommon: 222e00edaee550b48d8e9388eca9048a053f7c33
+  RevenueCat: 237cb14ba0ba0fa07153c801585b42b73be0fe7e
+
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+
+COCOAPODS: 1.14.3
