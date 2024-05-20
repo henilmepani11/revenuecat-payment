@@ -36,6 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.6
   purchases_flutter: ^6.25.0
   in_app_purchase: ^3.1.13
+  http: 
 
 dev_dependencies:
   flutter_test:
